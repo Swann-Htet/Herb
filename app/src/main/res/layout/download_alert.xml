@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/purple_500">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:background="@color/purple_500"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/movieName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MOVIE NAME"
+            android:textAlignment="center"
+            android:fontFamily="@font/rubiksemibold"
+            android:textColor="@color/white"
+            android:textSize="15dp">
+        </TextView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/thumbContainer"
+            android:layout_below="@+id/movieName"
+            android:layout_centerHorizontal="true"
+            android:layout_width="125dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="8dp"
+            android:layout_height="175dp">
+
+            <ImageView
+                android:id="@+id/movieThumb"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </ImageView>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_below="@+id/thumbContainer"
+            android:id="@+id/movieActress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Duration"
+            android:drawableLeft="@drawable/time_white"
+            android:drawablePadding="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:fontFamily="@font/rubikregular"
+            android:textColor="@color/white"
+            android:textSize="15dp">
+        </TextView>
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/movieActress"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/cancelAlert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/rubiksemibold"
+                android:text="Cancel">
+            </Button>
+
+            <Button
+                android:id="@+id/downloadAlert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rubiksemibold"
+                android:text="Download">
+            </Button>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

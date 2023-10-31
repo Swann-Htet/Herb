@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_blue"
+    tools:context=".MangaDetailActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/adViewManga">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="25dp">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/mangaCover"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/placeholder"
+                android:scaleType="centerCrop"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+            </pl.droidsonroids.gif.GifImageView>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                app:layout_constraintBottom_toBottomOf="@+id/mangaCover"
+                app:layout_constraintEnd_toEndOf="@+id/mangaCover"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/gradiant_bg" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardViewMangaThumb"
+                android:layout_width="125dp"
+                android:layout_height="175dp"
+                android:layout_marginStart="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                app:layout_constraintStart_toStartOf="@id/imageView4"
+                app:layout_constraintTop_toTopOf="@id/imageView4">
+
+                <ImageView
+                    android:id="@+id/mmangaThumb"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:transitionName="ImageMain"
+                    android:src="@drawable/placeholder" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <TextView
+                android:id="@+id/mangaTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Manga Name"
+                android:fontFamily="@font/rubiksemibold"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="5dp"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="@+id/cardViewMangaThumb"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/cardViewMangaThumb"
+                app:layout_constraintTop_toBottomOf="@+id/mangaCover" />
+
+            <ImageView
+                android:id="@+id/mangaDes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                app:layout_constraintTop_toBottomOf="@+id/cardViewMangaThumb">
+            </ImageView>
+
+            <Button
+                android:id="@+id/downManga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Download"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/rubiksemibold"
+                android:letterSpacing="0.03"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/mangaDes"></Button>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adViewManga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="FULL_BANNER"
+        ads:adUnitId="ca-app-pub-4743806105497141/4894365968"
+        tools:ignore="MissingConstraints">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

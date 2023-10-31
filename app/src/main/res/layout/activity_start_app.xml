@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".StartApp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationStart"
+            android:layout_width="300dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            app:lottie_url="REPLACE_JSON_URL"
+            app:lottie_autoPlay="true"
+            android:visibility="visible"
+            app:lottie_rawRes="@raw/animation04"
+            app:lottie_loop="true">
+        </com.airbnb.lottie.LottieAnimationView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/app_name"
+            android:textColor="@color/background_blue"
+            android:textSize="25dp"
+            android:textAllCaps="true"
+            android:letterSpacing="0.3"
+            android:paddingTop="5dp"
+            android:fontFamily="@font/rubiksemibold"
+            android:layout_centerInParent="true">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Developed by"
+                android:textColor="@color/background_blue"
+                android:textSize="12dp"
+                android:textAllCaps="false"
+                android:fontFamily="@font/rubikregular">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Swan Htet"
+                android:textColor="#FF0000"
+                android:textSize="12dp"
+                android:textAllCaps="false"
+                android:fontFamily="@font/rubiksemibold">
+            </TextView>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

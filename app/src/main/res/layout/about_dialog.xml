@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_500"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About Us"
+                android:fontFamily="@font/rubiksemibold"
+                android:textSize="18dp"
+                android:textColor="@color/white">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rubikregular"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:justificationMode="inter_word"
+                android:text="         Welcome to the Movie App, your go-to destination for all things movies! We're passionate about bringing the latest and greatest in cinema right to your fingertips. Whether you're a casual moviegoer or a dedicated cinephile, we've got something for everyone.">
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Developer: "
+                    android:fontFamily="@font/rubikregular"
+                    android:textColor="@color/white"
+                    android:textSize="12sp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Swan Htet"
+                    android:fontFamily="@font/rubiksemibold"
+                    android:textColor="#FFEB3B"
+                    android:textSize="12sp">
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Developer Email: "
+                    android:fontFamily="@font/rubikregular"
+                    android:textColor="@color/white"
+                    android:textSize="12sp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/emailDeveloper"
+                    android:text="herb.suppot@gmail.com"
+                    android:fontFamily="@font/rubiksemibold"
+                    android:textColor="#FFEB3B"
+                    android:textSize="12sp">
+                </TextView>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact Us"
+                android:fontFamily="@font/rubiksemibold"
+                android:textSize="18dp"
+                android:textColor="@color/white">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rubikregular"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:justificationMode="inter_word"
+                android:text="         Have questions, feedback, or just want to say hello? We'd love to hear from you! Reach out to us. Thank you for being part of the Movie App community. We hope you enjoy the journey through the world of cinema!">
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Email: "
+                    android:fontFamily="@font/rubikregular"
+                    android:textColor="@color/white"
+                    android:textSize="12sp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/emailSupport"
+                    android:text="herb.suppot@gmail.com"
+                    android:textStyle="italic"
+                    android:fontFamily="@font/rubiksemibold"
+                    android:textColor="#FFEB3B"
+                    android:textSize="12sp">
+                </TextView>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Terms of Use"
+                android:fontFamily="@font/rubiksemibold"
+                android:textSize="18dp"
+                android:textColor="@color/white">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rubikregular"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:justificationMode="inter_word"
+                android:text="Welcome to Herb Movie! By using this application, you agree to abide by the following terms:">
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="•"
+                    android:fontFamily="@font/rubikregular"
+                    android:textColor="#FF0000"
+                    android:textSize="12sp">
+                </TextView>
+
+                <TextView
+                    android:layout_marginStart="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="You must be at least 18 years old to use this app."
+                    android:fontFamily="@font/rubikregular"
+                    android:textColor="@color/white"
+                    android:textSize="12sp">
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="•"
+                    android:fontFamily="@font/rubikregular"
+                    android:textColor="#FF0000"
+                    android:textSize="12sp">
+                </TextView>
+
+                <TextView
+                    android:layout_marginStart="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="You may only use this app for personal, non-commercial purposes."
+                    android:fontFamily="@font/rubikregular"
+                    android:textColor="@color/white"
+                    android:textSize="12sp">
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="•"
+                    android:fontFamily="@font/rubikregular"
+                    android:textColor="#FF0000"
+                    android:textSize="12sp">
+                </TextView>
+
+                <TextView
+                    android:layout_marginStart="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Do not engage in any illegal activities while using this app."
+                    android:fontFamily="@font/rubikregular"
+                    android:textColor="@color/white"
+                    android:textSize="12sp">
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="•"
+                    android:fontFamily="@font/rubikregular"
+                    android:textColor="#FF0000"
+                    android:textSize="12sp">
+                </TextView>
+
+                <TextView
+                    android:layout_marginStart="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Respect the copyrights of all content provided in the app."
+                    android:fontFamily="@font/rubikregular"
+                    android:textColor="@color/white"
+                    android:textSize="12sp">
+                </TextView>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Privacy Policy"
+                android:fontFamily="@font/rubiksemibold"
+                android:textSize="18dp"
+                android:textColor="@color/white">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rubikregular"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                android:justificationMode="inter_word"
+                android:text="Your privacy is important to us. Here's how we handle your information:">
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="•"
+                    android:fontFamily="@font/rubikregular"
+                    android:textColor="#FF0000"
+                    android:textSize="12sp">
+                </TextView>
+
+                <TextView
+                    android:layout_marginStart="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="We collect basic information for app functionality, such as user preferences."
+                    android:fontFamily="@font/rubikregular"
+                    android:textColor="@color/white"
+                    android:textSize="12sp">
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="•"
+                    android:fontFamily="@font/rubikregular"
+                    android:textColor="#FF0000"
+                    android:textSize="12sp">
+                </TextView>
+
+                <TextView
+                    android:layout_marginStart="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="We do not share your personal information with third parties without your consent."
+                    android:fontFamily="@font/rubikregular"
+                    android:textColor="@color/white"
+                    android:textSize="12sp">
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="•"
+                    android:fontFamily="@font/rubikregular"
+                    android:textColor="#FF0000"
+                    android:textSize="12sp">
+                </TextView>
+
+                <TextView
+                    android:layout_marginStart="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="We may use cookies for a better user experience, but you can opt out."
+                    android:fontFamily="@font/rubikregular"
+                    android:textColor="@color/white"
+                    android:textSize="12sp">
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="•"
+                    android:fontFamily="@font/rubikregular"
+                    android:textColor="#FF0000"
+                    android:textSize="12sp">
+                </TextView>
+
+                <TextView
+                    android:layout_marginStart="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="We take all necessary steps to secure your data."
+                    android:fontFamily="@font/rubikregular"
+                    android:textColor="@color/white"
+                    android:textSize="12sp">
+                </TextView>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Content Disclaimer"
+                android:fontFamily="@font/rubiksemibold"
+                android:textSize="18dp"
+                android:textColor="@color/white">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rubikregular"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                android:justificationMode="inter_word"
+                android:text="The content provided in this app is for informational and entertainment purposes only:">
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="•"
+                    android:fontFamily="@font/rubikregular"
+                    android:textColor="#FF0000"
+                    android:textSize="12sp">
+                </TextView>
+
+                <TextView
+                    android:layout_marginStart="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="We do our best to provide accurate and up-to-date information, but we cannot guarantee it."
+                    android:fontFamily="@font/rubikregular"
+                    android:textColor="@color/white"
+                    android:textSize="12sp">
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="•"
+                    android:fontFamily="@font/rubikregular"
+                    android:textColor="#FF0000"
+                    android:textSize="12sp">
+                </TextView>
+
+                <TextView
+                    android:layout_marginStart="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The app may include third-party content, and we are not responsible for its accuracy or legality."
+                    android:fontFamily="@font/rubikregular"
+                    android:textColor="@color/white"
+                    android:textSize="12sp">
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="•"
+                    android:fontFamily="@font/rubikregular"
+                    android:textColor="#FF0000"
+                    android:textSize="12sp">
+                </TextView>
+
+                <TextView
+                    android:layout_marginStart="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="User-generated content is moderated, but we do not endorse or verify its accuracy."
+                    android:fontFamily="@font/rubikregular"
+                    android:textColor="@color/white"
+                    android:textSize="12sp">
+                </TextView>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginStart="5dp"
+                android:layout_gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Herb Movie Admins"
+                android:fontFamily="@font/rubiksemibold"
+                android:textColor="#FFE500"
+                android:layout_marginTop="10dp"
+                android:textSize="12sp">
+            </TextView>
+
+            <Button
+                android:id="@+id/okayBtn"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="end"
+                android:text="OKAY"
+                android:letterSpacing="0.03"
+                android:fontFamily="@font/rubiksemibold"
+                android:layout_height="wrap_content">
+            </Button>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

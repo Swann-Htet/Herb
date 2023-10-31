@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "601679800773",
+    "firebase_url": "https://herb-2023-default-rtdb.firebaseio.com",
+    "project_id": "herb-2023",
+    "storage_bucket": "herb-2023.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601679800773:android:41cf9ee4aa737d70c643ac",
+        "android_client_info": {
+          "package_name": "com.zeroone.herb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAOPJOqn7VaYGoitdg3G6cnYwe7ALEMeQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601679800773:android:9bfcf9da39b083fdc643ac",
+        "android_client_info": {
+          "package_name": "com.zeroone.herbadmin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAOPJOqn7VaYGoitdg3G6cnYwe7ALEMeQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
